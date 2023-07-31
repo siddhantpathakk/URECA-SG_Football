@@ -8,6 +8,8 @@ This research paper presents a comprehensive exploration and evaluation of a bes
 
 [![1690789137021](image/README/1690789137021.png)]()
 
+![1690789269503](image/README/1690789269503.png)
+
 ## Acknowledgement
 
 I would like to acknowledge the funding support from Nanyang Technological University – URECA Undergraduate Research Programme for this research project
@@ -38,7 +40,9 @@ To access the web-app,
 
 Some of the ROC curves and TF model training curves generated using the training script are shown below:
 
-![Model Los
+![1690789242759](image/README/1690789242759.png)
+
+![1690789308841](image/README/1690789308841.png)
 
 ## Conclusion
 
