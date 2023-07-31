@@ -22,3 +22,6 @@ Inferences
 
 *.mp4
 # Video files
+
+.DS_Store
+# This is a file created by the Mac operating system.
