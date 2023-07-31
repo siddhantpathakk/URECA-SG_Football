@@ -1,8 +1,12 @@
 # Creating an Expected Goal Model for Singapore football
 
+![1690789152198](image/README/1690789152198.png)
+
 ## Abstract
 
 This research paper presents a comprehensive exploration and evaluation of a bespoke Expected Goal (xG) model specifically designed for Singaporean football. The study addresses data quality and quantity challenges by utilizing an extensive dataset comprising spatial and temporal information from two seasons of English Premier League matches. Varied machine learning techniques, including Logistic Regression, K-Nearest Neighbours, Linear and Non-Support Vector Classifiers, Decision Trees, and a custom Deep Neural Network, are employed to calibrate the probabilistic models. Through fine-tuning, an ensemble model is proposed, achieving outstanding accuracy exceeding the 90% threshold on the test set. This research expands the frontiers of xG modeling and machine learning in football, offering practical implications for performance analysis and decision-making within the sports domain. It provides precise xG prediction models tailored to Singaporean football and similar domains with limited data, presenting a cost-effective methodology to enhance performance analysis and contributing to the corpus of literature on machine learning in football.
+
+[![1690789137021](image/README/1690789137021.png)]()
 
 ## Acknowledgement
 
@@ -20,9 +24,21 @@ I would like to extend my heartfelt gratitude to my supervisor - Asst. Prof Koma
 
 ## Gradio App for Inference
 
+For testing purposes, a locally-hosted Gradio-based simple website was developed with the front-end consisting of simple input fields/blanks andback-end consisting of the efficient model.
+
+To access the web-app, 
+
+1. Make sure a `*.h5` file is stored within the same directory as the `gradio_app.py`. Ensure the name of the file within the line 28 is same as the one of the model file to load it successfully using Keras API.
+2. Run the following command in the terminal/powershell from the root of the project directory:
+   ```console
+   $ python scripts/gradio_app.py
+   ```
 
 ## Results and Discussion
 
+Some of the ROC curves and TF model training curves generated using the training script are shown below:
+
+![Model Los
 
 ## Conclusion
 
