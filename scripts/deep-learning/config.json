@@ -1,0 +1,11 @@
+{ "activation": "elu", 
+ "batch_size": 580,
+ "dropout": 0.1279608146375314,
+ "dropout_rate": 0.010014947837176436,
+ "epochs": 152,
+ "layers1": 6,
+ "layers2": 3,
+ "learning_rate": 0.2203775446727318,
+ "neurons": 158,
+ "normalization": 0.6830131255680931,
+ "optimizer": "adadelta"}
