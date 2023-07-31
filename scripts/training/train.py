@@ -5,7 +5,7 @@ from datetime import date
 import logreg_dl, scripts.ml.logreg_ml as logreg_ml
 import scripts.ml.dectree_ml as dectree_ml, scripts.ml.linearsvc_ml as linearsvc_ml
 import scripts.ml.nusvc_ml as nusvc_ml, scripts.ml.knn_ml as knn_ml  # All the local python files
-import scripts.dataLoader as dataLoader
+import scripts.training.dataLoader as dataLoader
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Train an ML/DL model"
