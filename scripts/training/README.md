@@ -2,14 +2,18 @@
 
 Under the `./scripts/training/` directory, an example training script is provided for reference with arguments.
 
-```
-python scripts/create_hf_dataset.py \
-    -d /PATH/TO/mmnlu-eval/data \
-    -o /PATH/TO/hf-mmnlu-eval \
-    --intent-map /PATH/TO/massive_1.0_hf_format/massive_1.0.intents \
-    --slot-map /PATH/TO/massive_1.0_hf_format/massive_1.0.slots
+```console
+$ python train.py --model --level [-h]
+
+Description:
+  Train an ML/DL model
+
+Required arguments:
+  --model        Choice of model to train: lr, dt, nn, linearsvc, nusvc, knn, all (default: all)
+  --level        Which level of information (1-5) to use, as described in the methodology (default: 1)
+
+Help dialog:
+  -h, --help     Show this help message and exit
 ```
 
-### scikit-learn models (ML)
-
-### TensorFlow models (DL)
+The training script has verbose logs being stored in the form of `*.txt` files within the `Inferences` directory with the date and model information, pickled/converted model file, and evaluation performance (ROC curve/training loss-accuracy graphs).
