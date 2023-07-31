@@ -2,13 +2,14 @@
 
 ## Abstract
 
-This research paper presents a comprehensive exploration and evaluation of a bespoke Expected Goal (xG) model specifically designed for Singaporean football. The study addresses data quality and quantity challenges by utilizing an extensive dataset comprising spatial and temporal information from two seasons of English Premier League matches. Varied machine learning techniques, including Logistic Regression, K-Nearest Neighbours, Linear and Non-Support Vector Classifiers, Decision Trees, and a custom Deep Neural Network, are employed to calibrate the probabilistic models. Through fine-tuning, an ensemble model is proposed, achieving outstanding accuracy exceeding the 90% threshold on the test set. 
+This research paper presents a comprehensive exploration and evaluation of a bespoke Expected Goal (xG) model specifically designed for Singaporean football. The study addresses data quality and quantity challenges by utilizing an extensive dataset comprising spatial and temporal information from two seasons of English Premier League matches. Varied machine learning techniques, including Logistic Regression, K-Nearest Neighbours, Linear and Non-Support Vector Classifiers, Decision Trees, and a custom Deep Neural Network, are employed to calibrate the probabilistic models. Through fine-tuning, an ensemble model is proposed, achieving outstanding accuracy exceeding the 90% threshold on the test set.
 
 ![1690792388707](image/README/1690792388707.png "Proposed pipeline")
 
 This research expands the frontiers of xG modeling and machine learning in football, offering practical implications for performance analysis and decision-making within the sports domain. It provides precise xG prediction models tailored to Singaporean football and similar domains with limited data, presenting a cost-effective methodology to enhance performance analysis and contributing to the corpus of literature on machine learning in football.
 
 [![1690789137021](image/README/1690789137021.png)]()
+
 ## Acknowledgement
 
 I would like to acknowledge the funding support from Nanyang Technological University – URECA Undergraduate Research Programme for this research project
@@ -58,11 +59,11 @@ The results of performance for Level of Information 5 is shown below:
 | No-Support SVC       | 0.908           |      0.897      |
 | Deep Neural Network  | **0.988** | **0.992** |
 
-The research compares the performance of various machine learning models, indicating that K-Nearest Neighbors, No-Support SVC, and Decision Trees outperform Logistic Regression and Linear SVC in capturing non-linear relationships and handling complex decision boundaries. Custom neural networks are considered superior to traditional models, as they automatically extract intricate patterns and features from data, achieving higher predictive accuracy and scalability. Additionally, ELU with He-normal initialization outperforms other variants, enhancing deep neural network learning. The study highlights data shift in football over time, necessitating retraining models for relevance. 
+The research compares the performance of various machine learning models, indicating that K-Nearest Neighbors, No-Support SVC, and Decision Trees outperform Logistic Regression and Linear SVC in capturing non-linear relationships and handling complex decision boundaries. Custom neural networks are considered superior to traditional models, as they automatically extract intricate patterns and features from data, achieving higher predictive accuracy and scalability. Additionally, ELU with He-normal initialization outperforms other variants, enhancing deep neural network learning. The study highlights data shift in football over time, necessitating retraining models for relevance.
 
-Ensemble learning, a powerful technique combining diverse models, is proposed for improved prediction accuracy and robustness. 
+Ensemble learning, a powerful technique combining diverse models, is proposed for improved prediction accuracy and robustness.
 
-![1690789269503](https://file+.vscode-resource.vscode-cdn.net/Users/siddhantpathak/Desktop/Projects/Expected-Goal-for-SG-football/image/README/1690789269503.png)
+    ![1690793632646](image/README/1690793632646.png)
 
 However, implementation is beyond the scope of this research due to time constraints.
 
