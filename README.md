@@ -63,7 +63,7 @@ The research compares the performance of various machine learning models, indica
 
 Ensemble learning, a powerful technique combining diverse models, is proposed for improved prediction accuracy and robustness.
 
-    ![1690793632646](image/README/1690793632646.png)
+![1690793632646](image/README/1690793632646.png)
 
 However, implementation is beyond the scope of this research due to time constraints.
 
