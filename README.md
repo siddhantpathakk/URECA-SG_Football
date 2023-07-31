@@ -38,11 +38,21 @@ To access the web-app,
 
 ## Results and Discussion
 
-Some of the ROC curves and TF model training curves generated using the training script are shown below:
+Some of the training graphs (loss-epoch and accuracy-epoch)
 
-![1690789242759](image/README/1690789242759.png)
+![1690789788553](image/README/1690789788553.png)
 
-![1690789308841](image/README/1690789308841.png)
+![1690789795962](image/README/1690789795962.png)
+
+Some of the hyper-parameter optimization and selection curve for the right choice of activation function using the `deep-learning/finetune_*.py` script is shown below:
+
+![1690789492422](image/README/1690789492422.png)
+
+The results of performance for Level of Information 5 is shown below:
+
+![1690789859494](image/README/1690789859494.png)
+
+The research compares the performance of various machine learning models, indicating that K-Nearest Neighbors, No-Support SVC, and Decision Trees outperform Logistic Regression and Linear SVC in capturing non-linear relationships and handling complex decision boundaries. Custom neural networks are considered superior to traditional models, as they automatically extract intricate patterns and features from data, achieving higher predictive accuracy and scalability. Additionally, ELU with He-normal initialization outperforms other variants, enhancing deep neural network learning. The study highlights data shift in football over time, necessitating retraining models for relevance. Ensemble learning, a powerful technique combining diverse models, is proposed for improved prediction accuracy and robustness. However, implementation is beyond the scope of this research due to time constraints.
 
 ## Conclusion
 
